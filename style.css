@@ -10,6 +10,10 @@ header {
     text-align: center;
 }
 
+section {
+    margin: 50px;
+}
+
 label {
     display: block;
     margin-bottom: 6px;
@@ -17,7 +21,10 @@ label {
 
 input[type="text"], input[type="number"], select {
     box-sizing: border-box;
-    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     border: 1px solid gray;
     border-radius: 5px;
     width: 100%;
@@ -34,19 +41,13 @@ button[type="submit"] {
 
 button:hover {
     background-color: #2abc68;
-    border: 1px solid grey;
-    border-radius: 5px;
-    padding: 6px;
 }
 
 button:active {
     background-color: #1e7e43;
-    border: 1px solid grey;
-    border-radius: 5px;
-    padding: 6px;
 }
 
 .form-group {
     margin-bottom: 15px;
-    
+    max-width: 500px;
 }
