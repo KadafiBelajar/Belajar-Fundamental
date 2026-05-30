@@ -3,12 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar Git Dasar</title>
+    <title>Manajeman Inventaris Petshop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <h1>Belajar Git Dasar</h1>
-    <p><b>Youtube: Windah Basudara</b> > <a href="https://www.youtube.com/@WindahBasudara">Klik ini</a></p>
+    <header>
+        <h1>Manajeman Inventaris Petshop</h1>
+    </header>
+    <hr>
 
+    <main>
+        <section>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nama-produk">Nama Produk:</label>
+                    <input type="text" id="nama-produk" name="nama-produk" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="harga-jual">Harga Jual:</label>
+                    <Input type="number" id="harga-jual" name="harga-jual" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="kategori">Kategori:</label>
+                    <select name="kategori" id="kategori">
+                        <option value="" disabled selected>== Pilih Kategori ==</option>
+                        <option value="makanan-kucing"> Makanan Kucing</option>
+                        <option value="makanan-anjing"> Makanan Anjing</option>
+                        <option value="makanan-burung"> Makanan Burung</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Sumbit</button>
+                </div>
+            </form>
+        </section>
+    </main>
 </body>
 </html>

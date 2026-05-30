@@ -1,0 +1,48 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+input[type="text"], input[type="number"], select {
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: #2ecc71;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background-color: #2abc68;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+button:active {
+    background-color: #1e7e43;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    
+}
