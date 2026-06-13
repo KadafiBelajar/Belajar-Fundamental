@@ -3,43 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manajeman Inventaris Petshop</title>
+    <title>Raihan Sangkar</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <h1>Manajeman Inventaris Petshop</h1>
+        <div class="logo">
+            <h1>Raihan Sangkar</h1>
+            <p>Spesialis Sangkar Berkualitas</p>
+        </div>
+
+        <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Lokasi Toko</a></li>
+            <li><a href="#">Kontak</a></li>
+            <li><a href="#">Tentang</a></li>
+        </ul>
+    </nav>
+
     </header>
-    <hr>
 
     <main>
-        <section>
-            <form action="#" method="POST">
-                <div class="form-group">
-                    <label for="nama-produk">Nama Produk:</label>
-                    <input type="text" id="nama-produk" name="nama-produk" required>
-                </div>
+        <div class="container">
+            <div class="kartu-produk">
+                <div class="gambar-placeholder">Gambar Sangkar</div>
+                <h3>Sangkar Akrilik No. 1</h3>
+                <p class="harga">Rp350.000</p>
+                <button class="CTA-WA">Beli via WA</button>
+            </div>
 
-                <div class="form-group">
-                    <label for="harga-jual">Harga Jual:</label>
-                    <Input type="number" id="harga-jual" name="harga-jual" required>
-                </div>
+            <div class="kartu-produk">
+                <div class="gambar-placeholder">Gambar Sangkar</div>
+                <h3>Sangkar Muray No. 2</h3>
+                <p class="harga">Rp450.000</p>
+                <button class="CTA-WA">Beli via WA</button>
+            </div>
 
-                <div class="form-group">
-                    <label for="kategori">Kategori:</label>
-                    <select name="kategori" id="kategori">
-                        <option value="" disabled selected>== Pilih Kategori ==</option>
-                        <option value="makanan-kucing"> Makanan Kucing</option>
-                        <option value="makanan-anjing"> Makanan Anjing</option>
-                        <option value="makanan-burung"> Makanan Burung</option>
-                    </select>
-                </div>
+            <div class="kartu-produk">
+                <div class="gambar-placeholder">Gambar Sangkar</div>
+                <h3>Sangkar Kubah Bambu</h3>
+                <p class="harga">Rp250.000</p>
+                <button class="CTA-WA">Beli via WA</button>
+            </div>
 
-                <div class="form-group">
-                    <button type="submit">Simpan Data</button>
-                </div>
-            </form>
-        </section>
+            <div class="kartu-produk">
+                <div class="gambar-placeholder">Gambar Sangkar</div>
+                <h3>Sangkar Akrilik No. 2</h3>
+                <p class="harga">Rp400.000</p>
+                <button class="CTA-WA">Beli via WA</button>
+            </div>
+        </div>
     </main>
 </body>
+
 </html>
